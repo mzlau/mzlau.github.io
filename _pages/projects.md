@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Hardware platforms, controllers and vehicles I have built and tested.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research, racing]
 horizontal: false
 ---
 

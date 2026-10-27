@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Controls · Robotics · Autonomous Systems
+subtitle: Ph.D. candidate, Systems Engineering at Arizona State University
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Tempe, AZ, USA</p>
+    <p>Dynamic Systems and Control Laboratory</p><p>Arizona State University</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,8 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am Mingzhe Liu. I work on controls, robotics and autonomous systems.
+I am a Ph.D. candidate in Systems Engineering at Arizona State University, advised by Dr. Yan Chen in the Dynamic Systems and Control Laboratory. I work on vehicle dynamics and control, multi-agent systems and reinforcement learning, and I like to test ideas on real hardware: I build the robots and scaled vehicles, write the embedded code and run the experiments.
 
-*Replace this paragraph with a short bio: what you study, which problems you care about, what you are working on now.*
+Before and during my Ph.D. I worked on active-suspension control at Ford Research and Advanced Engineering, including a pending patent application, and led the aerodynamics team of a Formula SAE team at Iowa State. I also took part in the NSF I-Corps program, interviewing 50+ people in industry about my research.
 
-You can reach me at [mzhe94@gmail.com](mailto:mzhe94@gmail.com).
+See my [CV](/cv/), [publications](/publications/) and [projects](/projects/). You can reach me at [mzhe94@gmail.com](mailto:mzhe94@gmail.com).

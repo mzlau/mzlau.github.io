@@ -1,189 +1,140 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Mingzhe Liu
+  label: Ph.D. Candidate in Systems Engineering
+  email: mzhe94@gmail.com
+  location: Arizona, USA
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Vehicle dynamics and control, multi-agent systems and reinforcement learning, with hands-on experience in embedded hardware, vehicle prototyping and proving-ground testing.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: mingzhel
+    - network: GitHub
+      username: mzlau
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Arizona State University
+        location: Mesa, AZ
+        area: Systems Engineering
+        studyType: Ph.D.
+        start_date: 2021-08
+        end_date: present
+        score: "3.94/4.0"
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+          - "Research interests: vehicle dynamics and control, multi-agent systems, reinforcement learning"
+      - institution: Clemson University
+        location: Greenville, SC
+        area: Automotive Engineering
+        studyType: M.S.
+        start_date: 2019-01
+        end_date: 2020-12
+      - institution: Iowa State University
+        location: Ames, IA
+        area: Mechanical Engineering
+        studyType: B.S.
+        start_date: 2014-08
+        end_date: 2018-12
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Ford Motor Company
+        position: Research and Advanced Engineering Intern
+        location: Dearborn, MI
+        start_date: 2026-05
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+          - Led a theoretical and software-in-the-loop comparison of two active-suspension control architectures with their technical leads, using a scenario-based evaluation framework that accounts for vehicle dynamics and hardware constraints.
+          - Independently developed a corner-level control enhancement in Amesim and Simulink that improved body-heave control and works with multiple suspension-control strategies.
+          - Benchmarked competitive production active and semi-active suspension systems; led test design, data analysis and extensive proving-ground driving tests, and established reusable ride and handling metrics.
+      - company: Ford Motor Company
+        position: Research and Advanced Engineering Intern
+        location: Dearborn, MI
+        start_date: 2025-05
+        end_date: 2025-08
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+          - Initiated and led a new active-suspension control architecture, from analytical derivation to 7-DOF full-vehicle and SIL validation; lead inventor on a related pending U.S. patent application.
+          - Developed an active-suspension road-impact detection and mitigation strategy by adapting legacy semi-active control logic, validated in SIL with software and controls engineers.
+      - company: Arizona State University, Dynamic Systems and Control Laboratory
+        position: Graduate Research Associate, University Graduate Fellowship (PI: Dr. Yan Chen)
+        location: Mesa, AZ
+        start_date: 2021-08
+        end_date: present
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Designed and built an autonomous test platform for multi-agent wheeled-robot experiments on Raspberry Pi and Arduino, with V2V and V2X communication for real-time data exchange.
+          - Built a physics-based high-fidelity mobile robot simulator in SimScape Mechanical for the platform.
+          - Designed novel control strategies for single and multi-agent systems and validated them in hardware, including safe reinforcement learning.
+          - Programmed and diagnosed a scaled connected automated vehicle (CAV) platform over a pLTE network, and evaluated collective CAV control with lower-level chassis control in real-world experiments.
+      - company: NSF Innovation Corps (I-Corps)
+        position: Co-Entrepreneurial Lead
+        location: Remote
+        start_date: 2026-01
+        end_date: 2026-03
+        highlights:
+          - Turned vehicle dynamics research into an industry-aligned commercialization strategy.
+          - Conducted 50+ industry interviews to test commercialization hypotheses.
+      - company: Clemson University International Center for Automotive Research
+        position: Volunteer Research Assistant (Advisors: Dr. Bing Li, Dr. Jiangfeng Zhang)
+        location: Greenville, SC
+        start_date: 2020-09
+        end_date: 2021-05
+        highlights:
+          - Implemented a Q-learning collision-avoidance algorithm with perception data for highway driving.
+          - Configured a small-scale electric motor-generator test cell for motor hardware-in-the-loop research.
+      - company: Iowa State University, Internal Combustion Engine Laboratory
+        position: Undergraduate Research Assistant (PI: Dr. Song-Charng Kong)
+        location: Ames, IA
+        start_date: 2017-06
+        end_date: 2018-12
+        highlights:
+          - Set up and supervised engine test environments to EH&S standards; maintained diesel engines and electronic control systems; supported engine-dynamometer experiments.
+      - company: Guangzhou DENSO Co., Ltd.
+        position: Lean Manufacturing Intern
+        location: Guangzhou, China
+        start_date: 2019-05
+        end_date: 2019-08
+        highlights:
+          - Applied Toyota Production System principles on an HVAC line and cut takt time by 27%.
+          - Built an Excel-based DFM tool and supported PLC programming of a three-degree-of-freedom automatic stacker.
+      - company: Whirlpool Corporation
+        position: New Product Integration Co-op
+        location: Amana, IA
+        start_date: 2016-06
+        end_date: 2016-12
+        highlights:
+          - Led trial and pilot production runs and DFMEA reviews, raising first-pass yield from 49% to over 90% on a newly launched refrigerator model.
+
+    Leadership:
+      - company: Iowa State University Formula SAE (Cyclone Racing)
+        position: Aerodynamic Lead
+        location: Ames, IA
+        start_date: 2014-08
+        end_date: 2018-12
+        highlights:
+          - Led aerodynamic design (front/rear wings, active aero, nosecone, sidepods) for three Formula Student cars.
+          - Reduced peak longitudinal drag force by 61% with a drag reduction system, using CFD and FEA.
+          - Fabricated composite parts, assembled aero packages and supported field tests and competitions.
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: University Graduate Fellowship
+        date: 2024
+        awarder: Arizona State University
+      - title: Invention Disclosure Award
+        date: 2025
+        awarder: Ford Motor Company
+      - title: Modeling, Estimation and Control Conference Travel Grants
+        date: 2025
+        awarder: MECC (2022, 2025)
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Simulation and embedded
+        level: ""
+        keywords: "MATLAB/Simulink, SimScape Multibody, Raspberry Pi, Arduino, CAN-BUS, Python, C++"
+      - name: Vehicle engineering software
+        level: ""
+        keywords: "CarSim, ADAMS Car, Amesim, dSPACE, New Eagle, ATI Vision, Vision VDA"
+      - name: CAD/CAE
+        level: ""
+        keywords: "SolidWorks, Siemens NX, Digimat-FM, Ansys Mechanical/Fluent, OpenFOAM"
+      - name: Hands-on
+        level: ""
+        keywords: "Machine shop tools, manufacturing processes, vehicle prototyping, proving-ground testing"
